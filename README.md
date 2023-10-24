@@ -31,8 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ■ Approach
 - In developing this Angular portfolio website, my approach prioritized user-friendliness and skill enhancement. I leveraged Angular's component-based structure for modularity and routing for seamless navigation. Data binding and structural directives were used for dynamic content presentation. Animations added interactivity, and Bootstrap ensured responsiveness. Code organization followed Angular best practices. The result is an intuitive, visually appealing, and efficient web presence.
 
-■ What features you’ve implemented
-The main Angular features that I've implemented includes: 
+■ What features you’ve implemented? The main Angular features that I've implemented includes: 
 - Components (home, about me, navbar, experiences)
 - Routing (navbar)
 - Data binding (for interpolation) and Structural Derivatives (Ngfor/NgIf)
