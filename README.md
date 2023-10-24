@@ -47,17 +47,17 @@ improve this implementation?
 
 Quick Styling features I would add:
 - Add a carousel for my project cards (I think it would be relatively easy to implement using the Bootstrap library and would need to use CSS to style)
-- Add a footer on the Home page that would give redirect to links such as Github, Linkedin, social-media 
+- Add a footer on the Home page that would redirect to links such as Github, Linkedin, social-media 
 - Add a menu bar instead of a nav bar
 - Interactive background instead of static background
-- Accessibility - make sure that website looks good on different screens
+- Accessibility - make sure that the website looks good on different screens
 These styling features could be implemented in a short time period within a day. Unfortunately, this week is midterm week or I would have added them :).
 
 More Complex Concepts:
 - Authentication and Authorization: (using Firebase Authentication/JSON Web Tokens)
 - Observables + HTTP Client to include chatbot feature and live chat
 - Widgets using RESTful APIs - to display weather or waterloo news, or cool facts to make the website more interactive (can add charts using  D3.js or Chart.js)
-- Use modules an incorporate lazy loading
+- Use modules and incorporate lazy loading
 These features would take me longer (a couple days) as I would have to read the Angular documentation and would take longer to debug. 
 
 
