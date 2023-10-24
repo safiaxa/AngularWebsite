@@ -1,0 +1,39 @@
+<h1 style="text-align: center; font-family: monospace; background-color: pink; margin:0;">Past Projects</h1>
+<div class="project">
+
+    <form (ngSubmit)="filterCards()">
+      <label>Filter by Tags:</label>
+      <div *ngFor="let tag of getUniqueTags()">
+        <label>
+          <input type="checkbox" [(ngModel)]="selectedTags[tag]" [value]="tag" name="tags" />
+          {{ tag }}
+        </label>
+      </div>
+      <button type="submit">Apply Filters</button>
+    </form>
+  
+    <!-- Card List -->
+    <div class="card" *ngFor="let card of cards">
+      <div class="card-title">{{ card.title }}</div>
+      <div class="card-body">{{ card.description }}
+      <div class="button-container">
+        <a class="btn" href="https://github.com/safiaxa" >View on Github</a>
+       </div>
+      </div>
+      <div class="tags">
+        <span class="tag" *ngFor="let tag of card.tags" [ngClass]="getTagColorClass(tag)">{{ tag }}</span>
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  

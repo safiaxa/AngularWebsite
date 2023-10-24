@@ -1,0 +1,14 @@
+<div class = accordion-background>
+    <h1 class=" about-me" style="text-align: center; font-family: monospace;">Past Internships!</h1>
+<div class="accordion-container">
+    <div *ngFor="let item of accordionItems">
+      <button class="accordion" (click)="toggleAccordion(item)">{{ item.title }}</button>
+      <div class="panel" [ngStyle]="{'display': item.expanded ? 'block' : 'none'}">
+        {{ item.content }}
+      </div>
+    </div>
+  </div>
+  <div class="button-container">
+    <a class="btn" href="mailto:safia.ahmed@uwaterloo.ca">Let's Connect!</a>
+  </div>
+  </div>
