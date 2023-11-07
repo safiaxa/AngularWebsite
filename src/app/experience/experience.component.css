@@ -57,9 +57,7 @@
     background: rgb(92, 13, 92);
     padding: 0.7rem;
     color: white;
-    a {
-      text-align: center;
-    }
+    text-align: center; /* Apply text-align to the anchor tag directly */
   }
   
   .button-container .btn:hover {

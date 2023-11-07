@@ -80,7 +80,6 @@ p.intro {
 }
 
 .button-container .btn {
-  padding: 1rem 1.75rem;
   border-radius: 4px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -90,9 +89,7 @@ p.intro {
   background: rgb(92, 13, 92);
   padding: 0.7rem;
   color: white;
-  a {
-    text-align: center;
-  }
+  text-align: center; /* Apply text-align to the anchor tag directly */
 }
 
 .button-container .btn:hover {
