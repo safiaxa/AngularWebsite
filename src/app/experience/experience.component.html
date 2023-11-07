@@ -4,7 +4,9 @@
     <div *ngFor="let item of accordionItems">
       <button class="accordion" (click)="toggleAccordion(item)">{{ item.title }}</button>
       <div class="panel" [ngStyle]="{'display': item.expanded ? 'block' : 'none'}">
-        {{ item.content }}
+        <ul>
+        <li *ngFor="let item1 of item.content"> {{item1}} </li>
+        </ul>
       </div>
     </div>
   </div>

@@ -1,3 +1,60 @@
+.social-icons {
+
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  position: fixed;
+  bottom: 0; /* Move to the bottom */
+  left: 0;
+  height: 45%;
+  padding: 30px;
+  width: 0px; /* Adjust the width as needed */
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px 0; /* Adjust the margin as needed */
+
+  /* Set a fixed size for the icons */
+  width: 40px; /* Adjust the width to make all icons the same size */
+  height: 40px; /* Adjust the height if necessary */
+
+  /* Center the text under the icon */
+  text-align: center;
+  white-space: nowrap; /* Prevent text from breaking into multiple lines */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
+
+  color: purple; /* Change the icon color to purple */
+}
+
+.d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px 0; /* Adjust the margin as needed */
+
+  /* Set a fixed size for the icons */
+  width: 40px; /* Adjust the width to make all icons the same size */
+  height: 55px; /* Adjust the height if necessary */
+
+  /* Center the text under the icon */
+  text-align: center;
+  white-space: nowrap; /* Prevent text from breaking into multiple lines */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
+
+  color: purple; /* Change the icon color to purple */
+}
+
+
+.content {
+  margin-left: 50px; /* Ensure content is positioned to the right of the social icons */
+}
+
 div.home {
   background-color: pink;
   text-align: center;
