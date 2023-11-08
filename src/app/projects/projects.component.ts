@@ -12,13 +12,13 @@ export class ProjectsComponent {
   }
   cards = [
     {
-      title: 'Angular Portfolio',
-      description: 'Portfolio Website using TypeScript, HTML/CSS, Bootstrap.',
-      tags: ['Angular', 'TypeScript'],
+      title: 'FeedForward',
+      description: 'Constructed a CRM platform that utilizes customer data to create a dashboard (Power BI + Pandas) and an interactive admin interface (Angular) to auto-approve/disapprove candidates and construct optimized routes to deliver packages using the Google and Routific API’s',
+      tags: ['Angular', 'TypeScript', 'Python'],
     },
     {
-      title: 'FEMSPACE mobile app',
-      description: 'Made using React, an app that uses a MAP API to show free menstrual products near you.',
+      title: 'FEMSPACE',
+      description: 'Made using React Native, an app that uses a MAP API to show free menstrual products near you.',
       tags: ['React Native', 'JavaScript'],
     },
     {
@@ -38,7 +38,7 @@ export class ProjectsComponent {
         {
           title: 'Angular Portfolio',
           description: 'Portfolio Website using TypeScript, HTML/CSS, Bootstrap.',
-          tags: ['Angular', 'TypeScript'],
+          tags: ['Angular', 'TypeScript', 'Python'],
         },
         {
           title: 'FEMSPACE mobile app',
@@ -76,6 +76,8 @@ getTagColorClass(tag: string): string {
       return 'tag-blue';
     case 'TypeScript':
       return 'tag-green';
+    case 'Python':
+      return 'tag-pink';
     case 'React Native':
       return 'tag-red';
     case 'JavaScript':

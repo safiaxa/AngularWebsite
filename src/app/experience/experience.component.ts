@@ -15,9 +15,10 @@ export class ExperienceComponent {
   
 
 accordionItems = [
-  {title: 'Data Engineering Intern - Rogers',
-  content: ['Worked with React to create simple webpages for the IoT department', 'Developed automated lists using SQL eliminating the need for manual data extraction improving efficiency by 17%',
-  'Analyzed and processed large-scale datasets using big data technologies such as Spark in Microsoft Azure'],
+  {title: 'Network Developer Intern - Rogers',
+  content: ['Leveraged Angular framework to contribute to the development of an interactive web application, enhancing the user experience and ensuring a responsive design',
+    'Developed automated lists using SQL eliminating the need for manual data extraction improving efficiency by 17% + processed large-scale datasets using big data technologies such as Spark in Azure',
+    'Designed and implemented JavaScript scripts to automate the conversion of JSON data from a web app to CSV files (and vice versa), significantly reducing data processing time and human error'],
   expanded: false
 },
 
